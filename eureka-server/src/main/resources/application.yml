@@ -13,6 +13,6 @@ eureka:
     register-with-eureka: false             # Only for local stand-alone development
     fetch-registry: false                   # Only for local stand-alone development
     service-url:
-      defaultZone: http://ec2-13-124-222-121.ap-northeast-2.compute.amazonaws.com:8761/eureka  # Default Value. Just for demo
+      defaultZone: http://ec2-13-125-217-96.ap-northeast-2.compute.amazonaws.com:8761/eureka  # Default Value. Just for demo
   instance:
     prefer-ip-address: true                 # Use ip address instead of hostname from OS when reporting myself to eureka server
